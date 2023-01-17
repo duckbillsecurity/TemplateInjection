@@ -1,17 +1,19 @@
-### Usage
+## RemoteTemplateInjection
 
-
+Injects Microsoft template with macro into a Microsoft Word document.  
 
 ### Requirements
 
 PowerShell version 5 or greater.
 
+### Usage
+
 ### Basic steps
 
-1. Save Microsoft Word for remote template as .dotm file.
-2. Locate on a web server.
-3. Save Microsoft Word document for remote template injection as .docx file.
-4. Use PowerShell script to inject reference to remote template.
+1. Save a Microsoft Word document with macro as a .dotm file.
+2. Locate the .dotm file onto a remote web server.
+3. Save a Microsoft Word document for remote template injection as a .docx file.
+4. Use the PowerShell script to inject reference of the remote template into the .docx file.
 
 ### References
 
