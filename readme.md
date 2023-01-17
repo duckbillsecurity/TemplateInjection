@@ -17,8 +17,8 @@ PowerShell version 5 or greater.
 
 ### References
 
-https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
-https://github.com/JohnWoodman/remoteinjector
+- https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
+- https://github.com/JohnWoodman/remoteinjector
 
 
 
