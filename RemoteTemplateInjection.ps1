@@ -48,7 +48,6 @@ if ($file -notmatch '.docx') {
     Remove-Item -path $base -recurse -Force
     Remove-Item -path $f_in_zip -Force
 
-
 }
 
 #Define and parse script arguments
