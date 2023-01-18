@@ -21,6 +21,7 @@ PowerShell version 5 or greater.
 - https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
 - https://github.com/JohnWoodman/remoteinjector
 - https://support.microsoft.com/en-us/topic/a-potentially-dangerous-macro-has-been-blocked-0952faa0-37e7-4316-b61d-5b5ed6024216
+- How To Enable "Microsoft has blocked macros from running untrusted source" Setting https://www.youtube.com/watch?v=cGwJhLtpgP4
 
 
 
