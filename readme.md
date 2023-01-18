@@ -10,10 +10,10 @@ PowerShell version 5 or greater.
 
 ### Basic steps
 
-1. Save a Microsoft Word document with macro as a .doc file (Word 97-2003 Document).
-2. Locate the .dotm file onto a remote web server.
-3. Save a Microsoft Word document for remote template injection as a .docx file.
-4. Use the PowerShell script to inject reference of the remote template into the .docx file.
+1. Create a Microsoft Word template with macro, and save as a .dot file (Word 97-2003 Template).
+2. Create a new document from this template, and save as a Windows Word .docx file.
+3. Move the .dot file to a remote web server.
+4. Use the PowerShell script to inject reference of the remote template location into the .docx file.
 
 ### References
 
