@@ -1,4 +1,4 @@
-## RemoteTemplateInjection
+## Template Injection
 
 Injects Microsoft template with macro into a Microsoft Word document.  
 
