@@ -60,3 +60,5 @@ if(-not $file) {
 if(-not $url) {
     $url = Read-Host "Please provide url"
     }
+    
+Parse-Arguments -file $file -url $url
