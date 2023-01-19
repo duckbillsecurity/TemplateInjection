@@ -18,11 +18,11 @@ PowerShell version 5 or greater.
 
 ### References
 
-- Mitre Attack https://attack.mitre.org/techniques/T1221/
-- https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
-- https://github.com/JohnWoodman/remoteinjector
-- https://support.microsoft.com/en-us/topic/a-potentially-dangerous-macro-has-been-blocked-0952faa0-37e7-4316-b61d-5b5ed6024216
-- How To Enable "Microsoft has blocked macros from running untrusted source" Setting https://www.youtube.com/watch?v=cGwJhLtpgP4
+- Mitre Attack: Template Injection https://attack.mitre.org/techniques/T1221/
+- Phishing with MS Office: Inject Macros from a remote dotm template. https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
+- RemoteInjector: Python script to Inject remote template link into word document. https://github.com/JohnWoodman/remoteinjector
+- Microsoft: Internet Macros Blocked. https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked
+
 
 
 
