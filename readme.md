@@ -1,4 +1,5 @@
-# Template InjectionInjects Microsoft template with macro into a Microsoft Word document.  
+# Template Injection
+Injects Microsoft template with macro into a Microsoft Word document.  
 
 ## Requirements
 - PowerShell version 5 or greater.
